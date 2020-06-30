@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Gmarket Sans';
+  src: url(fonts/GmarketSansTTFLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gmarket_Sans_Bold';
+  src: url(fonts/GmarketSansTTFBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareOTF';
+  src: url(fonts/NanumSquareLight.ttf) format('truetype');
+}
+
+
+/* header */
+
+#header {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+#header .logo {
+  position: absolute;
+  width: 142.22px;
+  height: 25.6px;
+  left: calc(50% - 142.22px/2 - 412.44px);
+  top: 46.93px;
+}
