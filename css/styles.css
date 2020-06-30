@@ -1,3 +1,29 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
 @font-face {
   font-family: 'Gmarket Sans';
   src: url(fonts/GmarketSansTTFLight.ttf) format('truetype');
@@ -28,4 +54,139 @@
   height: 25.6px;
   left: calc(50% - 142.22px/2 - 412.44px);
   top: 46.93px;
+}
+.titleWrap{
+  position: absolute;
+  width: 500px;
+  height: 583.11px;
+  left: calc(50% - 396.8px/2 - 285.16px);
+  top: 182.04px;
+  
+  font-family: Gmarket Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 142px;
+  line-height: 102.3%;
+  /* or 145px */
+  letter-spacing: -7.11111px;  
+}
+.titleWorld{
+  color: #E15746;
+}
+.titleAll{
+  color: #56BC9D;
+}
+.titleAsset{
+  color: #9757B2;
+}
+.titleBitro{
+  color: #5381DA;
+}
+
+.descritionTop{
+  position: absolute;
+  width: 250px;
+  height: 47px;
+  left: calc(50% - 198px/2 + 0.16px);
+  top: 1089.42px;
+
+  font-family: Gmarket Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 57px;
+  line-height: 82.3%;
+  /* identical to box height, or 47px */
+  letter-spacing: -7.11111px;
+  color: #2C902A;
+}
+.descritionBottom{
+  position: absolute;
+  width: 830px;
+  height: 22px;
+  left: calc(50% - 749px/2 - 0.5px);
+  top: 1174.76px;
+
+  font-family: Gmarket Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.397633px;
+
+  color: #2C902A;
+}
+.bottomLine{
+  position: absolute;
+  width: 967.11px;
+  height: 0px;
+  left: calc(50% - 967.11px/2 + 0px);
+  top: 1341.16px;
+  opacity: 0.3;
+  border: 0.711111px solid #2C902A;
+}
+.content{
+  
+  position: absolute;
+  width: 898.13px;
+  height: 913.07px;
+  left: calc(50% - 898.13px/2 + 18.07px);
+  top: 1385px;
+  
+  font-family: Gmarket Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 148px;
+  line-height: 102.3%;
+  /* or 151px */
+  letter-spacing: -21.3333  
+}
+.red{
+  display: inline;
+  color: #EB0000;
+}
+.green{
+  display: inline;
+  color: #BAD53D;
+}
+.skyBlue{
+  display: inline;
+  color: #82D6E1;
+}
+.pink{
+  display: inline;
+  color: #ED5380;
+}
+.black{
+  display: inline;
+  color: #363636;
+}
+.purple{
+  display: inline;
+  color: #9757B2;
+}
+.darkGreen{
+  display: inline;
+  color: #57B2A7;
+}
+.orange{
+  display: inline;
+  color: #EF7708;
+}
+.lemon{
+  display: inline;
+  color: #D4E700;
+}
+.darkRed{
+  display: inline;
+  color: #FF3838;
+}
+.blue{
+  display: inline;
+  color: #1026E9;
+}
+.lavender{
+  display: inline;
+  color: #D7AFE9;
 }
