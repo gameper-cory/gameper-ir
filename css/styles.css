@@ -15,6 +15,7 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
+  list-style: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -28,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 @font-face {
-  font-family: 'Gmarket_Sans_Bold';
+  font-family: 'GmarketSansBold';
   src: url(fonts/GmarketSansTTFBold.ttf) format('truetype');
 }
 
@@ -60,7 +61,7 @@ footer, header, hgroup, menu, nav, section {
   height: 583.11px;
   left: calc(50% - 396.8px/2 - 285.16px);
   top: 182.04px;
-  font-family: Gmarket Sans;
+  font-family: GmarketSans;
   font-style: normal;
   font-weight: 300;
   font-size: 142px;
@@ -90,7 +91,7 @@ footer, header, hgroup, menu, nav, section {
   height: 47px;
   left: calc(50% - 198px/2 + 0.16px);
   top: 1089.42px;
-  font-family: Gmarket Sans; 
+  font-family: GmarketSans; 
   font-style: normal;
   font-weight: 300;
   font-size: 57px;
@@ -106,7 +107,7 @@ footer, header, hgroup, menu, nav, section {
   height: 22px;
   left: calc(50% - 749px/2 - 0.5px);
   top: 1174.76px;
-  font-family: Gmarket Sans;
+  font-family: GmarketSans;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -133,13 +134,11 @@ footer, header, hgroup, menu, nav, section {
   height: 913.07px;
   left: calc(50% - 898.13px/2 + 18.07px);
   top: 1385px;
-
 }
 
 .red {
   display: inline;
   color: #EB0000;
-
 }
 
 .green {
@@ -197,7 +196,7 @@ footer, header, hgroup, menu, nav, section {
   color: #D7AFE9;
 }
 
-.fontContent{
+.fontContent {
   font-family: GmarketSans;
   font-style: normal;
   font-weight: 300;
@@ -205,4 +204,47 @@ footer, header, hgroup, menu, nav, section {
   line-height: 102.3%;
   /* or 151px */
   letter-spacing: -21.3333px;
+}
+
+.team {
+  position: absolute;
+  width: 967.11px;
+  height: 751.64px;
+  left: 28.44px;
+  top: 2689.42px;
+}
+.team .teamTitle {
+  position: absolute;
+  width: 316px;
+  height: 53px;
+  left: calc(50% - 316px/2 - 325.56px);
+  top: 2689.42px;
+  font-family: Black Han Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 52px;
+  /* identical to box height */
+  letter-spacing: -0.711111px;
+  color: #E15746;
+}
+
+.team .teamDescription {
+  position: absolute;
+  width: 263px;
+  height: 25px;
+  left: calc(50% - 263px/2 - 352.06px);
+  top: 2776.89px;
+  font-family: NanumSquareOTF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 148.5%;
+  /* or 25px */
+  letter-spacing: -0.284444px;
+  color: #414F64;
+}
+
+.teamMember {
+  display: inline;
 }
