@@ -14,7 +14,6 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -24,7 +23,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 @font-face {
-  font-family: 'Gmarket Sans';
+  font-family: 'GmarketSans';
   src: url(fonts/GmarketSansTTFLight.ttf) format('truetype');
 }
 
@@ -91,7 +90,7 @@ footer, header, hgroup, menu, nav, section {
   height: 47px;
   left: calc(50% - 198px/2 + 0.16px);
   top: 1089.42px;
-  font-family: Gmarket Sans;
+  font-family: Gmarket Sans; 
   font-style: normal;
   font-weight: 300;
   font-size: 57px;
@@ -130,22 +129,17 @@ footer, header, hgroup, menu, nav, section {
 
 .content {
   position: absolute;
-  width: 1000px; /* 898.13px */
+  width: 898.13px; /* 898.13px */
   height: 913.07px;
   left: calc(50% - 898.13px/2 + 18.07px);
   top: 1385px;
-  font-family: Gmarket Sans;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 148px;
-  line-height: 102.3%;
-  /* or 151px */
-  letter-spacing: -21.3333  
+
 }
 
 .red {
   display: inline;
   color: #EB0000;
+
 }
 
 .green {
@@ -201,4 +195,14 @@ footer, header, hgroup, menu, nav, section {
 .lavender {
   display: inline;
   color: #D7AFE9;
+}
+
+.fontContent{
+  font-family: GmarketSans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 148px;
+  line-height: 102.3%;
+  /* or 151px */
+  letter-spacing: -21.3333px;
 }
